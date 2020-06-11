@@ -12,6 +12,11 @@ ReactDOM.render(
 				<Header input="" />
 			</div>
 		</div>
+		<div className="row">
+			<div className="col-xs-10 xol-xs-offset-1">
+				<Home title="input dynamic title" />
+			</div>
+		</div>
 		<Hello compiler="TypeScript" framework="React" />
 	</div>,
 	document.getElementById('app-root')

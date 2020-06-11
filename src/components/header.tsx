@@ -12,7 +12,11 @@ export class Header extends React.Component<HeaderProps, {}> {
 			<nav className="navbar navbar-default">
 				<div className="container">
 					<div className="navbar-header">
-						<ul className="nav navbar-nav"></ul>
+						<ul className="nav navbar-nav">
+							<div className="li">
+								<a href="x">Home</a>
+							</div>
+						</ul>
 					</div>
 				</div>
 			</nav>
