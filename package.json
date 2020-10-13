@@ -6,7 +6,7 @@
 		"start": "npm run build",
 		"build-unix": "webpack -d --config webpack.config.js && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
 		"build": "webpack -d --config webpack.config.js && copy src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
-		"analyze": "webpack-bundle-analyzer ./stats.json"
+		"analyze": "webpack-bundle-analyzer"
 	},
 	"keywords": [
 		"react",
